@@ -1,4 +1,5 @@
-Heart Disease Data Analysis with Power BI
+|Heart Disease Data Analysis with Power BI|
+
 Project Overview
 This project involves analyzing a heart disease dataset using Power BI to provide insights into key trends and patterns related to cardiovascular health. The dataset is sourced from the UCI Heart Disease repository and includes 2943 entries with various patient attributes such as age, cholesterol levels, and heart disease status. The goal is to create a comprehensive dashboard that can be used by healthcare professionals to make informed decisions regarding patient treatment and resource management.
 
