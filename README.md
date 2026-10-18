@@ -1,40 +1,34 @@
-|Heart Disease Data Analysis with Power BI|
+# Heart Disease Data Exploration in Power BI
 
-Project Overview
-This project involves analyzing a heart disease dataset using Power BI to provide insights into key trends and patterns related to cardiovascular health. The dataset is sourced from the UCI Heart Disease repository and includes 2943 entries with various patient attributes such as age, cholesterol levels, and heart disease status. The goal is to create a comprehensive dashboard that can be used by healthcare professionals to make informed decisions regarding patient treatment and resource management.
+An earlier educational Power BI project exploring the distribution of recorded demographic attributes, measurements and heart-disease labels. This is a dashboard exercise, not a validated clinical tool.
 
-Key Features
-Data Visualization: The Power BI dashboard includes multiple visualizations such as line graphs, pie charts, and bar graphs that explore the relationship between variables like age, cholesterol, and heart disease presence.
-Interactive Filters: Users can filter the data based on patient demographics such as age, gender, and cholesterol levels for more focused insights.
-KPI Monitoring: Key Performance Indicators (KPIs) are implemented to track trends in heart disease progression and assess the effectiveness of treatments.
-Custom Reports: The dashboard provides real-time, drill-down capabilities for a detailed analysis of heart disease factors, enabling healthcare professionals to create personalized treatment plans.
-Dataset
-The dataset used in this project is the UCI Heart Disease dataset, which includes the following features:
+## Available artifact
 
-Age (in years)
-Sex (Male/Female)
-Chest Pain Type
-Resting Blood Pressure (in mmHg)
-Cholesterol Level (in mg/dL)
-Fasting Blood Sugar (>120 mg/dL)
-Resting ECG Results
-Maximum Heart Rate Achieved
-Exercise-Induced Angina
-ST Depression Induced by Exercise
-Heart Disease Presence (1 = present, 0 = absent)
-Insights and Findings
-Age and Heart Disease: The analysis shows a strong correlation between increasing age and the likelihood of heart disease.
-Cholesterol and Heart Disease: Higher cholesterol levels are a key indicator of potential heart disease in patients.
-Chest Pain Types: Different chest pain types provide useful information for diagnosing heart disease.
-Tools and Technologies
-Power BI: Used for creating the interactive dashboard and visualizing the dataset.
-Data Cleaning: Data was cleaned and pre-processed within Power BI to remove inconsistencies and outliers.
-How to Use
-Download the .pbix file from the repository.
-Open the file in Power BI Desktop.
-Interact with the dashboard using the filters and visuals to explore insights.
-Use the KPI section to monitor key metrics related to heart disease.
-Future Improvements
-Include predictive analytics models to forecast heart disease risk based on patient data.
-Integrate more datasets for a comprehensive analysis of cardiovascular conditions.
-Add real-time data integration for continuous monitoring.
+[Download the original Power BI file](Heart%20Disease%20Model.pbix). Open it in Power BI Desktop to inspect its model, measures and visuals. The PBIX is preserved unchanged; it has not been refreshed or validated in Power BI Desktop during this documentation review.
+
+## Appropriate analytical questions
+
+- How are the recorded attributes distributed in this particular dataset?
+- How do counts and label proportions differ across documented groups?
+- Which missing values, duplicate records or coding choices could affect those comparisons?
+
+These are questions for further verification, not claims of measured findings. No numerical result is presented without a reproducible underlying calculation.
+
+## Dataset verification status
+
+The earlier documentation attributed the data to UCI and stated 2,943 records. The raw dataset and an exact download reference are not included in this repository, so that attribution, row count and preprocessing history have not been independently verified. They should be confirmed from the PBIX source connection and a data dictionary before being reported as facts.
+
+## Scope and limitations
+
+This project does not establish diagnosis, treatment effectiveness, disease progression, mortality, personalized treatment plans or real-time monitoring. A descriptive dashboard cannot establish those capabilities from cross-sectional attribute comparisons. Associations in a sample must not be described as clinical predictors without an appropriate validated analysis.
+
+This documentation revision removes unsupported capability claims from the previous README. It does not certify the original model, source data, cleaning steps or visual calculations.
+
+## Next verification steps
+
+1. Recover the exact source dataset and document its publisher, version and licence.
+2. Reconcile raw and imported record counts; document missing values and duplicates.
+3. Define each displayed metric and validate its DAX against an independent calculation.
+4. Export a dashboard screenshot with a visible filter context and add a small set of verified descriptive findings.
+
+Until those checks are complete, the hotel, energy and churn case studies on [my profile](https://github.com/Kelv-Ojo) provide more reproducible examples of my portfolio work. This project description was revised with AI assistance.
