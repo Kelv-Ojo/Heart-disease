@@ -1,40 +1,41 @@
-|Heart Disease Data Analysis with Power BI|
+# Heart Disease Data Analysis
 
-Project Overview
-This project involves analyzing a heart disease dataset using Power BI to provide insights into key trends and patterns related to cardiovascular health. The dataset is sourced from the UCI Heart Disease repository and includes 2943 entries with various patient attributes such as age, cholesterol levels, and heart disease status. The goal is to create a comprehensive dashboard that can be used by healthcare professionals to make informed decisions regarding patient treatment and resource management.
+A Power BI portfolio project exploring patterns in heart disease data through interactive visualizations.
 
-Key Features
-Data Visualization: The Power BI dashboard includes multiple visualizations such as line graphs, pie charts, and bar graphs that explore the relationship between variables like age, cholesterol, and heart disease presence.
-Interactive Filters: Users can filter the data based on patient demographics such as age, gender, and cholesterol levels for more focused insights.
-KPI Monitoring: Key Performance Indicators (KPIs) are implemented to track trends in heart disease progression and assess the effectiveness of treatments.
-Custom Reports: The dashboard provides real-time, drill-down capabilities for a detailed analysis of heart disease factors, enabling healthcare professionals to create personalized treatment plans.
-Dataset
-The dataset used in this project is the UCI Heart Disease dataset, which includes the following features:
+## Explore the report
 
-Age (in years)
-Sex (Male/Female)
-Chest Pain Type
-Resting Blood Pressure (in mmHg)
-Cholesterol Level (in mg/dL)
-Fasting Blood Sugar (>120 mg/dL)
-Resting ECG Results
-Maximum Heart Rate Achieved
-Exercise-Induced Angina
-ST Depression Induced by Exercise
-Heart Disease Presence (1 = present, 0 = absent)
-Insights and Findings
-Age and Heart Disease: The analysis shows a strong correlation between increasing age and the likelihood of heart disease.
-Cholesterol and Heart Disease: Higher cholesterol levels are a key indicator of potential heart disease in patients.
-Chest Pain Types: Different chest pain types provide useful information for diagnosing heart disease.
-Tools and Technologies
-Power BI: Used for creating the interactive dashboard and visualizing the dataset.
-Data Cleaning: Data was cleaned and pre-processed within Power BI to remove inconsistencies and outliers.
-How to Use
-Download the .pbix file from the repository.
-Open the file in Power BI Desktop.
-Interact with the dashboard using the filters and visuals to explore insights.
-Use the KPI section to monitor key metrics related to heart disease.
-Future Improvements
-Include predictive analytics models to forecast heart disease risk based on patient data.
-Integrate more datasets for a comprehensive analysis of cardiovascular conditions.
-Add real-time data integration for continuous monitoring.
+1. Download [Heart Disease Model.pbix](Heart%20Disease%20Model.pbix).
+2. Open the file in Power BI Desktop.
+3. Explore the report pages and available filters.
+4. If refreshing requests a missing source, update the source location in Power BI to a local copy of the original dataset.
+
+## Repository contents
+
+| File | Purpose |
+| --- | --- |
+| [Heart Disease Model.pbix](Heart%20Disease%20Model.pbix) | Power BI report and data model |
+| README.md | Project overview and usage notes |
+
+## Analysis scope
+
+The project documentation describes analysis of age, cholesterol, chest pain, blood pressure, maximum heart rate, and heart disease status. The report is intended to support exploratory analysis of relationships between these attributes.
+
+**Tools:** Power BI Desktop for data preparation, modeling, and visualization.
+
+## Data provenance and interpretation
+
+The original documentation attributes the data to the UCI Heart Disease repository. A source dataset, exact dataset version, and transformation log are not included as separate files here, so the previously stated row count and analytical conclusions cannot be independently reproduced from the documentation alone.
+
+Treat the report as an exploratory portfolio project. The repository does not document a validated prediction model, treatment-effect analysis, or real-time data pipeline.
+
+## Next improvements
+
+- Document the exact dataset source, version, row count, and field definitions.
+- Add report screenshots so visitors can preview the work without Power BI.
+- Document cleaning steps, measures, and filter behavior.
+- Add findings with supporting figures and clear limitations.
+
+## Related work
+
+- [Sales Overview Dashboard](https://github.com/Kelv-Ojo/Dashboard-sales)
+- [E-Commerce Chatbot](https://github.com/Kelv-Ojo/Chat_bot)
