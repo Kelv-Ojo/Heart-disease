@@ -1,5 +1,9 @@
 # Heart Disease Data Exploration in Power BI
 
+**Start here:** [Original PBIX](Heart%20Disease%20Model.pbix) → [data verification status](#dataset-verification-status) → [next checks](#next-verification-steps)
+
+[Available artefact](#available-artifact) · [Dataset status](#dataset-verification-status) · [Scope](#scope-and-limitations) · [Next steps](#next-verification-steps)
+
 An earlier educational Power BI project exploring the distribution of recorded demographic attributes, measurements and heart-disease labels. This is a dashboard exercise, not a validated clinical tool.
 
 ## Available artifact
@@ -32,3 +36,8 @@ This documentation revision removes unsupported capability claims from the previ
 4. Export a dashboard screenshot with a visible filter context and add a small set of verified descriptive findings.
 
 Until those checks are complete, the hotel, energy and churn case studies on [my profile](https://github.com/Kelv-Ojo) provide more reproducible examples of my portfolio work. This project description was revised with AI assistance.
+
+
+## Portfolio review notes
+
+This is an artefact-first project awaiting source and metric verification. Do not state the old row count or UCI attribution as verified without the exact input data. Recover the source connection and licence, reconcile imported rows and DAX, and export a real populated dashboard. Keep it as descriptive educational reporting; it is not a diagnostic or treatment system.
