@@ -6,9 +6,19 @@
 
 An earlier educational Power BI project exploring the distribution of recorded demographic attributes, measurements and heart-disease labels. This is a dashboard exercise, not a validated clinical tool.
 
+
+## Visual evidence
+
+![Actual Power BI Desktop review screenshot](assets/screenshots/powerbi-heart-review.png)
+
+Actual Power BI Desktop review screenshot. Filters: Female; chest pain All; resting-BP category Normal; cholesterol category High; age 20–80. The gauge now uses median instead of summed resting BP. Imported values, source units, category rules and dataset provenance remain unverified; this is not clinical evidence.
+
+Images are static previews. Open them at full size for detail; follow the reproduction notes to inspect the underlying work.
+
+
 ## Available artifact
 
-[Download the original Power BI file](Heart%20Disease%20Model.pbix). Open it in Power BI Desktop to inspect its model, measures and visuals. The PBIX is preserved unchanged; it has not been refreshed or validated in Power BI Desktop during this documentation review.
+[Download the original Power BI file](Heart%20Disease%20Model.pbix). Open it in Power BI Desktop to inspect its model, measures and visuals. The PBIX is preserved unchanged; it was opened in Power BI Desktop without refreshing its source. A [separate local review copy](Heart%20Disease%20Model-reviewed-20261030.pbix) corrects the resting-BP gauge from Sum to Median and labels it accordingly. This is a scoped repair, not validation of the dataset or all measures.
 
 ## Appropriate analytical questions
 
@@ -33,11 +43,11 @@ This documentation revision removes unsupported capability claims from the previ
 1. Recover the exact source dataset and document its publisher, version and licence.
 2. Reconcile raw and imported record counts; document missing values and duplicates.
 3. Define each displayed metric and validate its DAX against an independent calculation.
-4. Export a dashboard screenshot with a visible filter context and add a small set of verified descriptive findings.
+4. Complete the measure/source checks before reporting descriptive findings. A real screenshot of the scoped local repair is included above, with its filter context and limitations.
 
 Until those checks are complete, the hotel, energy and churn case studies on [my profile](https://github.com/Kelv-Ojo) provide more reproducible examples of my portfolio work. This project description was revised with AI assistance.
 
 
 ## Portfolio review notes
 
-This is an artefact-first project awaiting source and metric verification. Do not state the old row count or UCI attribution as verified without the exact input data. Recover the source connection and licence, reconcile imported rows and DAX, and export a real populated dashboard. Keep it as descriptive educational reporting; it is not a diagnostic or treatment system.
+This is an artefact-first project awaiting source and metric verification. Do not state the old row count or UCI attribution as verified without the exact input data. Recover the source connection and licence, reconcile imported rows and DAX, and complete the review of the now-captured populated dashboard. Keep it as descriptive educational reporting; it is not a diagnostic or treatment system.
