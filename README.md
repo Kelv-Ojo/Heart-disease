@@ -1,6 +1,6 @@
 # Heart Disease Data Exploration in Power BI
 
-**Start here:** [Original PBIX](Heart%20Disease%20Model.pbix) → [data verification status](#dataset-verification-status) → [next checks](#next-verification-steps)
+**Start here:** [Download reviewed Power BI report](Heart%20Disease%20Model-reviewed-20261030.pbix) · [Review notes](docs/DESKTOP-REVIEW-20261030.md)
 
 [Available artefact](#available-artifact) · [Dataset status](#dataset-verification-status) · [Scope](#scope-and-limitations) · [Next steps](#next-verification-steps)
 
@@ -18,7 +18,7 @@ Images are static previews. Open them at full size for detail; follow the reprod
 
 ## Available artifact
 
-[Download the original Power BI file](Heart%20Disease%20Model.pbix). Open it in Power BI Desktop to inspect its model, measures and visuals. The PBIX is preserved unchanged; it was opened in Power BI Desktop without refreshing its source. A [separate local review copy](Heart%20Disease%20Model-reviewed-20261030.pbix) corrects the resting-BP gauge from Sum to Median and labels it accordingly. This is a scoped repair, not validation of the dataset or all measures.
+[Download the original Power BI file](Heart%20Disease%20Model.pbix). Open it in Power BI Desktop to inspect its model, measures and visuals. The PBIX is preserved unchanged; it was opened in Power BI Desktop without refreshing its source. A [separate reviewed copy](Heart%20Disease%20Model-reviewed-20261030.pbix) corrects the resting-BP gauge from Sum to Median and labels it accordingly. This is a scoped repair, not validation of the dataset or all measures.
 
 ## Appropriate analytical questions
 
@@ -51,3 +51,7 @@ Until those checks are complete, the hotel, energy and churn case studies on [my
 ## Portfolio review notes
 
 This is an artefact-first project awaiting source and metric verification. Do not state the old row count or UCI attribution as verified without the exact input data. Recover the source connection and licence, reconcile imported rows and DAX, and complete the review of the now-captured populated dashboard. Keep it as descriptive educational reporting; it is not a diagnostic or treatment system.
+
+## Report definition checks
+
+The [configuration audit](docs/REPORT-DEFINITION-AUDIT.md) confirms the five slicer fields and identifies denominator and gauge-bound checks still needed. The count card counts non-null ages, not verified unique patients. No additional clinical findings are claimed.
